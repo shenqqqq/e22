@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.nav{
+	float: right;	
+	font-size: 13px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 2px;
+	margin-top: 19px;
+}
+.nav li{
+	float: left;
+	list-style: none;
+	margin: 0px 10px;
+	position: relative;
+}
+.nav a{
+	color: #333;
+}
+.nav .more{
+	width: 60px;
+	height: 24px;
+	background: #3388ff;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	z-index: 99;
+}
+.box{
+	width: 70px;
+	border: solid 1px #999;
+	position: absolute;
+	top: 26px;
+	left: -23px;
+	display: none;
+}
+.box a{
+	display: block;
+	height: 26px;
+	text-decoration: none;
+	text-align: center;
+}
+.box a:hover{
+	background: #3388ff;
+	color: white;
+}
+.obox{
+	width: 0px;
+	height: 0px;
+	border: solid 6px transparent;
+	border-bottom: solid 6px #CCCCCC;
+	position: absolute;
+	top: -12px;
+	left: 29px;
+}
+.sz:hover .box{
+	display: block;
+}
+.morebox{
+	width: 85px;
+	height: 100%;
+	border-left: solid 1px #e7e7e7;
+	background: #f9f9f9;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding-top: 52px;
+	font-size: 12px;
+	display: none;
+}
+.morebox a{
+	display: block;
+	width: 66px;
+	border-top: solid 1px #e7e7e7;
+	margin: 0 auto;
+	text-align: center;
+	padding:8px 0px 7px 0px;
+	text-decoration: none;
+}
+.morebox img{
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 0 auto;
+}
+.lastli:hover .more{
+	background: #f9f9f9;
+	color: #333;
+}
+.lastli:hover .morebox{
+	display: block;
+}
+.logo{
+	clear: both;
+	margin: 0px auto 0px;
+	display: block;
+	position: relative;
+	top: 55px;
+}
+.searchbox{
+	width: 638px;
+	height: 34px;
+	border: solid 1px #999;
+	margin: 93px auto 0px;
+	position: relative;
+}
+.searchbox input{
+	width: 500px;
+	height: 34px;
+	border: none;
+	outline: medium;/*去掉轮廓*/
+	text-indent: 16px;
+}
+.searchbox div{
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	top: 9px;
+	right: 110px;
+	cursor: pointer;
+	background: url(../img/ia_100000004.png) no-repeat;
+}
+.searchbox div:hover{
+	background: url(../img/ia_100000004.png) no-repeat 0px -20px;
+}
+.searchbox a{
+	display: block;
+	width: 100px;
+	height: 36px;
+	background: #3385ff;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	line-height: 36px;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+}
+.er{
+	width: 116px;
+	height: 116px;
+	border: solid 1px #eee;
+	margin: 92px auto 0px;
+}
+.er img{
+	margin: 5px;
+}
+p{
+	text-align: center;
+	margin-top: 6px;
+}
+.p2{
+	color: #999;
+	font-size: 14px;
+}
+.p3{
+	font-size: 0px;
+	margin-top: 30px;
+}
+.p3 a{
+	font-size: 12px;
+	margin: 0px 12px;
+	color: #999;
+}
+.p4{
+	font-size: 12px;
+	color: #999;
+}
+.p4 a{
+	color: #999;
+}
+.span1{
+	width: 14px;
+	height: 18px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url(../img/ia_100000015.png) no-repeat -600px -96px;
+}
+.span2{
+	width: 14px;
+	height: 18px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url(../img/ia_100000015.png) no-repeat -623px -97px;
+}
